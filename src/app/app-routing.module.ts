@@ -5,10 +5,10 @@ import { SecondComponentComponent } from './second-component/second-component.co
 import { ThirdComponentComponent } from './third-component/third-component.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'first', pathMatch: 'full'},
-  { path: 'first', component : FirstComponentComponent},
-  { path: 'second', component: SecondComponentComponent },
-  { path: 'third', component: ThirdComponentComponent}
+  { path: '', redirectTo: '/First', pathMatch: 'full'},
+  { path: 'First', component : FirstComponentComponent},
+  { path: 'Second', component: SecondComponentComponent },
+  { path: 'Third', component: ThirdComponentComponent}
 ];
 
 @NgModule({
